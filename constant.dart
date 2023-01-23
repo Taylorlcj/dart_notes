@@ -13,5 +13,8 @@ void main(List<String> args) {
 
   //null
   int num; // if there is no value assigned, it is null
+
+  //final (if you know what its gonna be at run time)
+  final String nickname = "TJ";
 }
 

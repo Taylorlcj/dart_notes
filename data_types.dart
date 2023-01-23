@@ -29,7 +29,7 @@ void main(List<String> args) {
 
   print("isItTrue1: $isItTrue1 | isItTrue2: $isItTrue2 \n");
 
-  dynamic weakVariable = 100;
+  dynamic weakVariable = 100; //uses its best guess
   print("WeakeVariable 1: $weakVariable \n");
 
   weakVariable = "Dart programming";
