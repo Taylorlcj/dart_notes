@@ -12,9 +12,11 @@ void main(List<String> args) {
   print(aConstString.runtimeType);
 
   //null
+  // ignore: unused_local_variable
   int num; // if there is no value assigned, it is null
 
   //final (if you know what its gonna be at run time)
+  // ignore: unused_local_variable
   final String nickname = "TJ";
 }
 
